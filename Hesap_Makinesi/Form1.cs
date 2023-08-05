@@ -293,16 +293,19 @@ namespace Hesap_Makinesi
                 {
                     toplam = (int)(Convert.ToInt64(sayi1) - Convert.ToInt64(sayi2));
                     label3.Text = "Sonucunuz = " + toplam;
+                    textBox1.Text = Convert.ToString(toplam);
                 }
                 if (crpm == 1)
                 {
                     toplam = (int)(Convert.ToInt64(sayi1) * Convert.ToInt64(sayi2));
                     label3.Text = "Sonucunuz = " + toplam;
+                    textBox1.Text = Convert.ToString(toplam);
                 }
                 if (blm == 1)
                 {
                     toplam = (int)(Double)(Convert.ToDouble(sayi1) / Convert.ToDouble(sayi2));
                     label3.Text = "Sonucunuz = " + toplam;
+                    textBox1.Text = Convert.ToString(toplam);
                 }
             }
         }
