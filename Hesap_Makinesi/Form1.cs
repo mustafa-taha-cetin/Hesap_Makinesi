@@ -287,6 +287,7 @@ namespace Hesap_Makinesi
                 {
                     toplam = (int)(Convert.ToInt64(sayi1) + Convert.ToInt64(sayi2));
                     label3.Text = "Sonucunuz = " + toplam;
+                    textBox1.Text =Convert.ToString(toplam);
                 }
                 if (ckrm == 1)
                 {
